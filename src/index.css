@@ -490,13 +490,13 @@
 }
 
 .shadow {
-  background: #777;
+  background: rgba(0, 0, 0, 0.3);
   width: 65px;
   height: 15px;
   filter: blur(2px);
   border-radius: 50%;
   position: absolute;
-  bottom: 0;
+  top: 520px;
   animation: animatedShadow 1.25s ease infinite alternate;
 }
 
